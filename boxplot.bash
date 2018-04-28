@@ -3,11 +3,7 @@
 # Ensure all necessary packages are installed 
 
 # Loading libraries
-library(microbiome)
 library(ggpubr)
-library(knitr)
-library(dplyr)
-library(RColorBrewer)
 
 # Setting directory
 setwd(C:/Users/User/bioc3301)
@@ -19,6 +15,6 @@ alpha <- read.csv(file.choose(), header=TRUE)
 alpha
 
 # Plotting boxplot
-ggboxplot(alpha2, x = "SamplePh", y = "chao1", fill = "SamplePh", palette = c("skyblue2", "#b2df8a", "lightsalmon", "mistyrose"), font.label = list(size = 20, colour = "black"), add = "jitter", shape = "SamplePh") + guides(fill=FALSE, shape=FALSE)
+ggboxplot(alpha, x = "SamplePh", y = "chao1", fill = "SamplePh", palette = c("skyblue2", "#b2df8a", "lightsalmon", "mistyrose"), font.label = list(size = 20, colour = "black"), add = "jitter", shape = "SamplePh") + guides(fill=FALSE, shape=FALSE)
  
 q()
