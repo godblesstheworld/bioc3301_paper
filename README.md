@@ -7,8 +7,7 @@ Codes used for bioc3301 paper
 3. OTUs were picked using <i>pickotu2018_open.bash</i>
 4. OTU table was sorted by pH for downstream analyses using <i>sort_OTU_table.bash</i>
 5. Core diversity analyses were carried out using <i>cdanalysis_2018_open.bash</i>
-6. Alpha diversity calculations and 2D principle coordination plots were generated through <i>alpha_beta_diversity.bash</i>
+6. Alpha diversity calculations were done and refined rarefaction plots were generated through <i>alpha_diversity.bash</i>
 7. Alpha diversity box plots were generated through R using <i>boxplot.bash</i>
-8. Distance matrices were generated and mantel tests were conducted using <i>distance_matrix.bash</i>
 
 That is all.
