@@ -19,6 +19,6 @@ alpha <- read.csv(file.choose(), header=TRUE)
 alpha
 
 # Plotting boxplot
-ggboxplot(alpha, x = "SamplePh", y = "chao1", fill = "SamplePh", palette = c("skyblue2", "#b2df8a", "lightsalmon", "mistyrose")) + guides(fill=FALSE)
-
+ggboxplot(alpha2, x = "SamplePh", y = "chao1", fill = "SamplePh", palette = c("skyblue2", "#b2df8a", "lightsalmon", "mistyrose"), font.label = list(size = 20, colour = "black"), add = "jitter", shape = "SamplePh") + guides(fill=FALSE, shape=FALSE)
+ 
 q()
